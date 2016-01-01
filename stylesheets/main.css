@@ -1,0 +1,89 @@
+      body{
+        background: #333333;
+      }
+      
+      #header{
+        background: #1A1A1A;
+        height: 40px;
+      }
+
+      #content{
+        width: 100%;
+        margin: auto;
+      }
+
+      #content .top{
+        width: 480px;
+        margin: auto;
+      }
+
+      #content .top .content{
+        margin-top: 10px;
+      }
+
+      #content .description{
+        white-space: nowrap;
+        color:#afafaf;
+        padding-left: 8px
+      }
+
+      #content .bottom{
+        width: 500px;
+        margin: auto;
+      }
+
+      #gallery{
+        width: 100%;
+      }
+
+      #gallery .screenshot{
+        background: #1A1A1A;
+        width: 100%;
+      }
+
+      #gallery .screenshot .scroll{
+        overflow: auto;
+        white-space: nowrap;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+
+      #gallery .screenshot img{
+        width: 200px;
+        margin: 10px;
+      }
+
+      .arrow_dark{
+        display: block;
+        height: 20px;
+        width: 100%;
+        background-image: url("./../screenshot/arrow_dark.png");
+        background-repeat: repeat-x;
+      }
+
+      .arrow_light{
+        display: block;
+        height: 20px;
+        width: 100%;
+        background-image: url("./../screenshot/arrow_light.png");
+        background-repeat: repeat-x;
+      }
+
+      .footer{
+        width: 100%;
+        display: block;
+        background: #333333;
+        padding-top: 40px;
+      }
+
+      .footer .content{
+        margin: auto;
+        width: 255px;
+      }
+
+      .footer .version{
+        padding-bottom: 20px;
+        color: #6c6c6c;
+        margin: 0px;
+        text-align: center;
+      }
