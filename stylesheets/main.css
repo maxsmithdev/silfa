@@ -35,6 +35,11 @@
         width: 100%;
       }
 
+      #gallery a{
+        outline: none;
+      }
+
+
       #gallery .screenshot{
         background: #1A1A1A;
         width: 100%;
