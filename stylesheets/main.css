@@ -12,23 +12,26 @@
         margin: auto;
       }
 
-      #content .top{
-        width: 480px;
+      #content .bottom{
+        width: 100%;
         margin: auto;
+        text-align: center;
       }
 
-      #content .top .content{
+      #content .bottom .content{
         margin-top: 10px;
       }
 
       #content .description{
         color:#afafaf;
-        padding-left: 8px
+        padding-left: 15px;
+        padding-right: 15px;
       }
 
-      #content .bottom{
-        width: 500px;
+      #content .top{
+        width: 70%;
         margin: auto;
+        max-width: 500px !important;
       }
 
       #gallery{
